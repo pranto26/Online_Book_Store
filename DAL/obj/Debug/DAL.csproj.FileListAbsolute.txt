@@ -1,0 +1,14 @@
+C:\.NET FRAMEWORK\Online_Book_Store\DAL\bin\Debug\DAL.dll.config
+C:\.NET FRAMEWORK\Online_Book_Store\DAL\bin\Debug\DAL.dll
+C:\.NET FRAMEWORK\Online_Book_Store\DAL\bin\Debug\DAL.pdb
+C:\.NET FRAMEWORK\Online_Book_Store\DAL\bin\Debug\EntityFramework.dll
+C:\.NET FRAMEWORK\Online_Book_Store\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\.NET FRAMEWORK\Online_Book_Store\DAL\bin\Debug\EntityFramework.xml
+C:\.NET FRAMEWORK\Online_Book_Store\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\.NET FRAMEWORK\Online_Book_Store\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\.NET FRAMEWORK\Online_Book_Store\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\.NET FRAMEWORK\Online_Book_Store\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\.NET FRAMEWORK\Online_Book_Store\DAL\obj\Debug\DAL.dll
+C:\.NET FRAMEWORK\Online_Book_Store\DAL\obj\Debug\DAL.pdb
+C:\.NET FRAMEWORK\Online_Book_Store\DAL\obj\Debug\DAL.Migrations.dbInit.resources
+C:\.NET FRAMEWORK\Online_Book_Store\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
