@@ -12,3 +12,6 @@ C:\.NET FRAMEWORK\Online_Book_Store\DAL\obj\Debug\DAL.dll
 C:\.NET FRAMEWORK\Online_Book_Store\DAL\obj\Debug\DAL.pdb
 C:\.NET FRAMEWORK\Online_Book_Store\DAL\obj\Debug\DAL.Migrations.dbInit.resources
 C:\.NET FRAMEWORK\Online_Book_Store\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+C:\.NET FRAMEWORK\Online_Book_Store\DAL\obj\Debug\DAL.Migrations.update1.resources
+C:\.NET FRAMEWORK\Online_Book_Store\DAL\obj\Debug\DAL.Migrations.TokenDB.resources
+C:\.NET FRAMEWORK\Online_Book_Store\DAL\obj\Debug\DAL.Migrations.TokenDBu1.resources

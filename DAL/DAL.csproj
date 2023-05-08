@@ -52,12 +52,26 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataAccessFactory.cs" />
+    <Compile Include="Interfaces\IAuth.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
     <Compile Include="Migrations\202305061623043_dbInit.cs" />
     <Compile Include="Migrations\202305061623043_dbInit.designer.cs">
       <DependentUpon>202305061623043_dbInit.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202305061916597_update1.cs" />
+    <Compile Include="Migrations\202305061916597_update1.designer.cs">
+      <DependentUpon>202305061916597_update1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305081700543_TokenDB.cs" />
+    <Compile Include="Migrations\202305081700543_TokenDB.designer.cs">
+      <DependentUpon>202305081700543_TokenDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305081714150_TokenDBu1.cs" />
+    <Compile Include="Migrations\202305081714150_TokenDBu1.designer.cs">
+      <DependentUpon>202305081714150_TokenDBu1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Token.cs" />
     <Compile Include="OBSContext.cs" />
     <Compile Include="Models\Book.cs" />
     <Compile Include="Models\Category.cs" />
@@ -68,6 +82,8 @@
     <Compile Include="Repos\BookRepo.cs" />
     <Compile Include="Repos\OrderRepo.cs" />
     <Compile Include="Repos\Repo.cs" />
+    <Compile Include="Repos\TokenRepo.cs" />
+    <Compile Include="Repos\UserRepo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -76,6 +92,15 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202305061623043_dbInit.resx">
       <DependentUpon>202305061623043_dbInit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305061916597_update1.resx">
+      <DependentUpon>202305061916597_update1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305081700543_TokenDB.resx">
+      <DependentUpon>202305081700543_TokenDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305081714150_TokenDBu1.resx">
+      <DependentUpon>202305081714150_TokenDBu1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
