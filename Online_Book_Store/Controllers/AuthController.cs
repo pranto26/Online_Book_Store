@@ -1,4 +1,5 @@
 ﻿using BLL.Services;
+using Online_Book_Store.Auth;
 using Online_Book_Store.Models;
 using System;
 using System.Collections.Generic;
@@ -28,6 +29,23 @@ namespace Online_Book_Store.Controllers
             {
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = ex.Message });
             }
+        }
+        [Logged]
+        [HttpGet]
+        [Route("api/logout")]
+        public HttpResponseMessage Logout()
+        {
+            var token = Request.Headers.Authorization.ToString();
+            try
+            {
+                var res = AuthService.Logout(token);
+                return Request.CreateResponse(HttpStatusCode.OK, res);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Msg = ex.Message });
+            }
+
         }
     }
 }

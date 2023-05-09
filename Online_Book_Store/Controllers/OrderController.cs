@@ -1,5 +1,6 @@
 ﻿using BLL.DTOs;
 using BLL.Services;
+using Online_Book_Store.Auth;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,7 @@ namespace Online_Book_Store.Controllers
     public class OrderController : ApiController
     {
         [HttpGet]
+        [Logged]
         [Route("api/orders")]
         public HttpResponseMessage Orders()
         {
@@ -26,6 +28,7 @@ namespace Online_Book_Store.Controllers
             }
         }
         [HttpGet]
+        [Logged]
         [Route("api/orders/{id}")]
         public HttpResponseMessage Order(int id)
         {
@@ -41,6 +44,7 @@ namespace Online_Book_Store.Controllers
         }
 
         [HttpPost]
+        [Logged]
         [Route("api/orders/create")]
         public HttpResponseMessage AddOrder(OrderDTO obj)
         {
@@ -64,6 +68,7 @@ namespace Online_Book_Store.Controllers
         }
 
         [HttpPost]
+        [Logged]
         [Route("api/orders/update")]
         public HttpResponseMessage Update(OrderDTO obj)
         {
@@ -88,6 +93,7 @@ namespace Online_Book_Store.Controllers
 
 
         [HttpPost]
+        [Logged]
         [Route("api/orders/delete/{id}")]
         public HttpResponseMessage DeleteOrder(int id)
         {
