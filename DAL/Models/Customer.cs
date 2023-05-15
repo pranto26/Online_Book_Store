@@ -25,5 +25,11 @@ namespace DAL.Models
         public string City { get; set; }
         [Required]
         public int Phone { get; set; }
+
+        public virtual ICollection<Order> Orders { get; set; }
+        public Customer()
+        {
+            Orders = new List<Order>();
+        }
     }
 }

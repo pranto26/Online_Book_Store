@@ -31,5 +31,10 @@ namespace DAL
             return new TokenRepo();
         }
 
+        public static IRepo<Customer, int, bool> CustomerData()
+        {
+            return new CustomerRepo();
+        }
+
     }
 }

@@ -20,6 +20,7 @@ namespace DAL.Models
         [ForeignKey("Book")]
         public int? Book_Id { get; set; }
         public virtual Book Book { get; set; }
+        public virtual Customer Customer { get; set; }
 
         public virtual User User { get; set; }
         

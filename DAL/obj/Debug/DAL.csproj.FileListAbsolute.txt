@@ -15,3 +15,5 @@ C:\.NET FRAMEWORK\Online_Book_Store\DAL\obj\Debug\DAL.csproj.GenerateResource.ca
 C:\.NET FRAMEWORK\Online_Book_Store\DAL\obj\Debug\DAL.Migrations.update1.resources
 C:\.NET FRAMEWORK\Online_Book_Store\DAL\obj\Debug\DAL.Migrations.TokenDB.resources
 C:\.NET FRAMEWORK\Online_Book_Store\DAL\obj\Debug\DAL.Migrations.TokenDBu1.resources
+C:\.NET FRAMEWORK\Online_Book_Store\DAL\obj\Debug\DAL.Migrations.CustomerOrderRelation.resources
+C:\.NET FRAMEWORK\Online_Book_Store\DAL\obj\Debug\DAL.Migrations.customerorderv2.resources
